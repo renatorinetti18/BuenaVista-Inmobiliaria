@@ -1,0 +1,824 @@
+/* ------------------------ INDEX ------------------------ */
+.cabecera{
+    margin-bottom: 10px;
+}
+
+.logo_cabecera{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.navbar-nav{
+    margin-top: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+.nav-item{
+    padding-right: 100px;
+    font-size: xx-large;
+}
+
+.primer_nombre{
+    margin-top: 67px;
+    margin-left: -30px;
+    font-family: 'Lobster', cursive;
+}
+
+.segundo_nombre{
+    font-family: 'Lobster', cursive;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.imagen_buscador{
+    margin-top: 5px;
+}
+
+.selectores_index{
+    margin-top: 30px;
+}
+
+.selector_operacion_index{
+    width: 200px;
+    height: 45px;
+    margin-top: 150px;
+    margin-left: -165px;
+}
+
+.selector_propiedad_index{
+    width: 200px;
+    height: 45px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.buscador_index{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-bottom: 250px;
+}
+
+.barra_busqueda{
+    width: 550px;
+    height: 45px;
+}
+
+.boton_busqueda{
+    font-size: small;
+    width: 400px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.boton_busqueda_mapa{
+    font-size: small;
+    width: 400px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+}
+
+.ubicacion{
+    margin-top: 70px;
+}
+
+.contenido_buscador{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.titulo_buscador{
+    font-size: 300%;
+    font-family: 'Lobster', cursive;
+}
+
+.parrafor_buscador{
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+.mapa_buscador{
+    margin-right: 70px;
+}
+
+.titulo_recientes{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 300%;
+}
+
+.propiedades{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.img_propiedad_1, .img_propiedad_2, .img_propiedad_3{
+    margin-top: 10px;
+    margin-left: 2.5px;
+    border-radius: 5px;
+}
+
+.propiedad_1, .propiedad_2, .propiedad_3{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 150px;
+    background-color: gray;
+    color: white;
+}
+
+.boton_propiedad{
+    background-color: blue;
+    color: white;
+    height: 60px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-left: 2.5px;
+}
+
+.publicaciones_recientes{
+    margin-bottom: 170px;
+}
+
+.footer{
+    background-color: gray;
+    height: 200px;
+}
+
+.logo_footer{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.info_redes{
+    margin-top: 50px;
+    margin-left: 18px;
+}
+
+.informacion_redes{
+    padding-bottom: 20px;
+}
+
+.informacion_redes a{
+    color: white;
+    text-decoration: none;
+}
+
+.accesos_footer{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.acceso_directo{
+    padding-bottom: 20px;
+}
+
+.acceso_directo a{
+    color: white;
+    text-decoration: none;
+}
+
+.acerca_footer{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.acerca_de{
+    padding-bottom: 20px;
+}
+
+.acerca_de a{
+    color: white;
+    text-decoration: none;
+}
+
+.copyright{
+    background-color: black;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contenido_copyright{
+    color: white;
+    margin-bottom: -1px;
+}
+
+.copyright a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ------------------------ BUSQUEDA - PROPIEDAD ------------------------ */
+
+.selectores_busqueda{
+    margin-top: 50px;
+}
+
+.selector_operacion_busqueda{
+    width: 200px;
+    height: 45px;
+}
+
+.selector_propiedad_busqueda{
+    width: 200px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.selector_servicios_busqueda{
+    width: 200px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.selector_precios_busqueda{
+    width: 200px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.selector_antiguedad_busqueda{
+    width: 200px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.barra_busqueda_busqueda{
+    width: 1550px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.boton_busqueda_busqueda{
+    font-size: small;
+    width: 200px;
+    height: 45px;
+    background-color: blue;
+    color: white;
+}
+
+.propiedades_busqueda{
+    margin-top: 40px;
+}
+
+.titulo_resultado_busqueda{
+    font-family: 'Lobster', cursive;
+    margin-top: 10px;
+    margin-bottom: 39px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.propiedad_busqueda{
+    margin-bottom: 200px;
+}
+
+.prop_busqueda_1, .prop_busqueda_2, .prop_busqueda_3, .prop_busqueda_4, .prop_busqueda_5{
+    margin-bottom: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    width: 85%;
+}
+
+.img_prop_busqueda_1, .img_prop_busqueda_2, .img_prop_busqueda_3, .img_prop_busqueda_4, .img_prop_busqueda_5{
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+.info_prop_busqueda_1, .info_prop_busqueda_2, .info_prop_busqueda_3, .info_prop_busqueda_4, .info_prop_busqueda_5{
+    margin-top: 40px;
+    padding-bottom: 55px;
+}
+
+.swiffy-slider{
+    margin-bottom: 40px;
+    margin-left: 270px;
+}
+
+.titulo_prop{
+    background-color: gray;
+    width: 70%;
+    border-radius: 10px;
+    color: white;
+    margin-left: 270px;
+}
+
+.titulo_propiedad{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info_propiedad{
+    font-family: 'Lobster', cursive; 
+    text-align: center;
+    font-size: x-large;
+    margin-top: -10px;
+}
+
+.info_propiedad_registro{
+    font-family: 'Lobster', cursive; 
+    text-align: center;
+    font-size: x-large;
+    margin-top: -10px;
+    padding-bottom: 30px;
+}
+
+.descripcion_prop{
+    font-family: 'Lobster';
+    margin-left: 270px;
+    background-color: gray;
+    color: white;
+    width: 70%;
+    height: 1400px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.descripcion_prop_registro{
+    font-family: 'Lobster';
+    margin-left: 270px;
+    background-color: gray;
+    color: white;
+    width: 70%;
+    height: 1100px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.caracteristicas_prop{
+    border-top: 1px solid white;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.info_1_prop{
+    margin-top: 10px;
+    border-right: 1px solid white;
+}
+
+.info_2_prop{
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.contacto_prop{
+    margin-top: 60px;
+    padding-bottom: 10px;
+    border-top: 1px solid white;
+    padding-top: 30px;
+}
+
+.boton_contacto{
+    font-size: small;
+    width: 74px;
+    height: 45px;
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+    padding-right: 70px;
+}
+
+.ubicacion_prop{
+    border-top: 1px solid white;
+    padding-top: 30px;
+    margin-top: 75px;
+}
+
+.lista_propiedad_info{
+    margin-bottom: 150px;
+}
+
+.lista_propiedad_info h2{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.lista_propiedad_info p{
+    padding-left: 30px;
+}
+
+.fila_publicacion{
+    color: white;
+    background-color: gray;
+    margin-bottom: 59px;
+    width: 50%;
+    border-radius: 8px;
+    height: 290px;
+}
+
+.imagen_prop{
+    text-align: center;
+    padding-top: 130px;
+}
+
+.info_prop_2{
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.boton_ver_propiedad{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+/* ------------------------ INGRESO - REGISTRO ------------------------ */
+.imagen_inicio_sesion_registro{
+    height: 750px;
+    padding-top: 170px;
+    margin-bottom: 100px;
+}
+
+.ingreso_usuario{
+    background-color: gray;
+    width: 500px;
+    height: 330px;
+    padding-top: 50px;
+    border-radius: 15px;
+    font-family: 'Lobster';
+}
+
+.ingreso_usuario h3{
+    color: white;
+}
+
+.registro_usuario{
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    padding-top: 50px;
+    border-radius: 15px;
+    font-family: 'Lobster';
+}
+
+.registro_usuario h3{
+    padding-bottom: 15px;
+    margin-top: -40px;
+}
+
+.barra_ingreso_usuario, .barra_registro_usuario{
+    width: 400px;
+    height: 45px;
+}
+
+.ingresar_nombre, .ingresar_apellido, .ingresar_mail, .ingresar_telefono, .ingresar_contraseña{
+    margin-bottom: 5px;
+}
+
+.boton_iniciar_sesion, .boton_registrarse{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 400px;
+    margin-top: 20px;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.registro_usuario{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.boton_opcion_secundaria{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.foto_perfil_registro p{
+    margin-top: 10px;
+    font-size: smaller;
+}
+
+/* ------------------------ SOPORTE ------------------------ */
+.imagen_soporte{
+    height: 650px;
+    padding-top: 170px;
+    margin-bottom: 70px;
+}
+
+.soporte{
+    font-family: 'Lobster';
+}
+
+.barra_soporte{
+    width: 700px;
+    height: 45px;
+}
+
+.boton_soporte{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+
+.soporte h1{
+    font-size: 100px;
+    margin-top: 90px;
+}
+
+.preguntas_frecuentes_acerca{
+    margin-left: 50px;
+    margin-bottom: 200px;
+    font-family: 'Lobster';
+}
+
+.preguntas_frecuentes_acerca h2{
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+.preguntas_frecuentes_acerca h3{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+details{
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 5px;
+    width: 80%;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+details div p{
+    padding-bottom: 30px;
+    width: 80%;
+}
+
+summary{
+    list-style: none;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+summary::before{
+    content: '+ ';
+}
+
+/* ------------------------ DROPDOWN - LOGIN ------------------------ */
+.dropbtn {
+  width: 300px;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid gray;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(228, 228, 228)}
+
+/* ------------------------ PERFIL DE USUARIO ------------------------ */
+.datos_usuario{
+    font-family: 'Lobster';
+    margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.datos_usuario h1{
+    text-align: center;
+    color: white;
+    width: 700px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: gray;
+    margin-left: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.datos{
+    font-size: x-large;
+    color: white;
+    margin-left: 600px;
+    width: 700px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: gray;
+    margin-top: 30px;
+}
+
+.datos p{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+
+
+/* ------------------------ PUBLICACIONES DEL USUARIO ------------------------ */
+
+.publicaciones_usuario{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster';
+    border-radius: 15px;
+}
+
+.publicaciones_usuario h1{
+    padding-top: 40px;
+}
+
+.boton_crear_plantilla a{
+    text-decoration: none;
+    color: white;
+    border: 5px solid white;
+    border-style: dashed;
+    padding: 100px;
+}
+
+.boton_crear_plantilla p{
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.boton_login_plantilla{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.boton_login_plantilla a{
+    text-decoration: none;
+    color: white;
+    border: 5px solid white;
+    border-style: dashed;
+    padding: 20px;
+}
+
+/* ------------------------ PLANTILLA DE PUBLICACION ------------------------ */
+.boton_crear_publicacion{
+    background-color: blue;
+    color: white;
+    height: 70px;
+    width: 400px;
+    font-size: larger;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 735px;
+}
+
+.subir_img{
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: gray;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 1330px;
+    margin-left: 270px;
+}
+
+.mensaje_creacion_publicacion{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    width: 500px;
+    margin-left: 680px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.titulo_prop_registro{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/* ------------------------ PAGINA ADMINISTRADOR - MODIFICADOR DE REGISTROS ------------------------ */
+.titulo_modificacion_datos{
+    text-align: center;
+    font-family: 'Lobster';
+    margin-top: 120px;
+}
+
+.modificacion_datos_registro{
+    width: 500px;
+    margin-left: 685px;
+    background-color: gray;
+    width: 550px;
+    border-radius: 15px;
+}
+
+.input_mod_datos{
+    padding-bottom: 10px;
+    padding-top: 15px;
+    margin-top: 13px;
+    margin-left: 24px;
+    width: 500px;
+}
+
+.boton_agregar_usuario{
+    width: 200px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 855px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.boton_mod_datos{
+    width: 200px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 175px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.registro_usuario_admin{
+    background-color: gray;
+    width: 500px;
+    height: 450px;
+    padding-top: 50px;
+    border-radius: 15px;
+    font-family: 'Lobster';
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
